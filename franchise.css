@@ -1,0 +1,436 @@
+/* общие */
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 23px;
+  text-transform: uppercase;
+}
+
+/* NEW franchise SECTION */
+
+.franchise-about-section .wrapper_inner {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  color: #333;
+}
+
+.franchise-about-section .detail-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.franchise-about-section .about-subtitle {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  padding: 10px 20px;
+  width: 110%;
+  background: linear-gradient(
+    90deg,
+    rgba(238, 238, 238, 1) 35%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.franchise-about-section .about-subtitle__name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.franchise-about-section .about-desc {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.about-section__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.about-section__item {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.about-section__item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-section__item p:last-of-type {
+  margin: 0;
+}
+
+.consultation-btn .btn span {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+@media (max-width: 921px) {
+  .item-image {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+  .franchise-about-section .wrapper_inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .franchise-about-section .title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+  .franchise-about-section .detail-text {
+    font-weight: 400;
+    font-size: 15px;
+  }
+}
+
+/* NEW franchise why section */
+
+.franchise-why-section .wrapper_inner {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #333;
+}
+
+.franchise-why-section .title {
+  padding-bottom: 36px;
+}
+
+.franchise-why__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.franchise-why__item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.franchise-why__item img {
+  margin: 0;
+}
+
+.franchise-why__item .detail-text__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.franchise-why__item ul,
+.franchise-why__item ul li,
+.franchise-why__item p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+
+/* franchise-slider-section */
+
+.franchise-slider-section {
+  padding-bottom: 60px;
+}
+
+.franchise-slider-section .wrapper_inner {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  color: #333;
+}
+
+.franchise-slider-section .swiper-container {
+  display: flex;
+}
+
+.franchise-slider-section .swiper-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.franchise-slider-section .swiper-item p {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 25px;
+  margin: 0;
+}
+
+.franchise-slider-section .swiper-scrollbar {
+  display: none;
+}
+
+.franchise-slider-section .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  left: 2%;
+  height: 2px;
+  width: 96%;
+}
+
+.franchise-slider-section .more-btn {
+  margin-top: 25px;
+  text-align: center;
+}
+
+@media (max-width: 921px) {
+  .franchise-why__container {
+    column-gap: 0;
+    row-gap: 0;
+    border-left: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+  }
+  .franchise-why__container .logo-item {
+    display: none;
+  }
+  .franchise-why__item {
+    background-color: #f8f8f8;
+    border-right: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .franchise-why__item .detail-text {
+    text-align: center;
+  }
+  .franchise-why__item {
+    padding: 0 5px;
+    min-height: 150px;
+  }
+  .franchise-slider-section .swiper-scrollbar {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .franchise-slider-section {
+    padding-bottom: 30px;
+  }
+  .franchise-why-section .title {
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+  .franchise-why__item .detail-text {
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .franchise-why__item ul li,
+  .franchise-why__item p {
+    text-align: center;
+  }
+  .franchise-why-section .wrapper_inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .franchise-slider-section .wrapper_inner {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .franchise-slider-section .swiper-item p {
+    font-size: 15px;
+    padding-top: 15px;
+  }
+  .franchise-slider-section .more-btn {
+    display: none;
+  }
+}
+
+/* NEW franchise-reason section */
+
+.franchise-reason-section .wrapper_inner {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #333;
+}
+
+.franchise-reason__container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: url(img-franchise/bg-elny.svg) no-repeat center;
+  background-size: contain;
+}
+
+.franchise-reason__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 170px;
+}
+
+.area-1 {
+  grid-area: 1 / 3 / 3 / 4;
+}
+.area-2 {
+  grid-area: 2 / 2 / 3 / 3;
+  justify-content: flex-end;
+}
+.area-3 {
+  grid-area: 2 / 4 / 3 / 5;
+  justify-content: flex-end;
+}
+.area-4 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.area-5 {
+  grid-area: 3 / 5 / 4 / 6;
+}
+.area-6 {
+  grid-area: 4 / 2 / 5 / 3;
+  justify-content: flex-start;
+}
+.area-7 {
+  grid-area: 4 / 4 / 5 / 5;
+  justify-content: flex-start;
+}
+.area-8 {
+  grid-area: 4 / 3 / 6 / 4;
+}
+
+.franchise-reason__item .detail-text__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: center;
+  color: #c3af98;
+}
+
+.franchise-reason__item ul,
+.franchise-reason__item ul li,
+.franchise-reason__item p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.logo-item img {
+  max-width: 100%;
+}
+
+@media (max-width: 1410px) {
+  .franchise-reason__item {
+    height: 150px;
+  }
+  .franchise-reason__container  {
+    background-size: 80%;
+  }
+}
+
+@media (max-width: 1240px) {
+  .franchise-reason__item ul,
+  .franchise-reason__item ul li,
+  .franchise-reason__item p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 980px) {
+  .franchise-reason__container {
+    display: flex;
+    flex-direction: column;
+    background: none;
+  }
+  .franchise-reason__item {
+    height: 100%;
+  }
+  .franchise-reason__item:not(:last-of-type)::after {
+    content: "";
+    width: 10px;
+    height: 60px;
+    background: url("img-franchise/dots-bg.svg") no-repeat;
+    margin: 0 auto;
+    margin-top: 12px;
+  }
+  .franchise-reason__item .detail-text__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #333;
+  }
+  .franchise-reason__item ul,
+  .franchise-reason__item ul li,
+  .franchise-reason__item p {
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .franchise-reason-section .wrapper_inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+/* NEW callback section */
+
+.franchise-callback-section .wrapper_inner {
+  padding-top: 60px;
+  padding-bottom: 120px;
+  color: #333;
+  text-align: center;
+}
+
+.callback-section__container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 115px;
+  border: 1px solid #d9d9d9;
+  background-color: #f8f8f8;
+}
+
+.callback-btn {
+  padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .callback-section__container {
+    padding: 20px 45px;
+  }
+  .franchise-callback-section .wrapper_inner {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .franchise-callback-section .title {
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 14px;
+  }
+  .callback-section__container {
+    padding: 10px 24px;
+  }
+  .callback-btn {
+    padding-top: 24px;
+  }
+}
